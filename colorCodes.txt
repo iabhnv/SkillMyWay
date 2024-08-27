@@ -1,0 +1,5 @@
+Color codes
+
+text = text-slate-50
+background = bg-slate-50
+teal background = bg-teal-800

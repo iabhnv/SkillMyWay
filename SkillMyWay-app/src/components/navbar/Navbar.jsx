@@ -2,6 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
+    <div>
     <div className="navbar bg-slate-50">
   <div className="navbar-start">
     <div className="dropdown">
@@ -53,6 +54,7 @@ function Navbar() {
   <div className="navbar-end">
     <a className="btn">Button</a>
   </div>
+</div>
 </div>
   )
 }

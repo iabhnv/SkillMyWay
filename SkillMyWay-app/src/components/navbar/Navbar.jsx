@@ -1,11 +1,12 @@
 import React from "react";
-
+// props
+// {isAuth,isHomeActive,isStoriesActive,isPathActive}
 function Navbar() {
   return (
-    <div>
-      <div className="navbar bg-slate-50">
+    <div className="max-w-screen-2xl">
+      <div className="navbar bg-slate-50 justify-between">
         <div className="navbar-start">
-          <div className="dropdown">
+          <div className="dropdown w-8 ">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -37,18 +38,18 @@ function Navbar() {
               </li>
             </ul>
           </div>
-          <div className="flex flex-col mx-0 md:mx-3">
+          <div className="flex flex-col mx-0 ">
             <a className="btn btn-ghost text-xl flex flex-col">
-              <img className="h-10" src="/SMWlogo.png" alt="Logo" />
+              <img className="h-6 sm:h-8" src="/SMWlogo.png" alt="Logo" />
             </a>
           </div>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-lg">
             <li>
               <a>Home</a>
             </li>
-            
+
             <li>
               <a>Stories</a>
             </li>
@@ -57,9 +58,10 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <div className="navbar-end mx-4 md:mx-8">
-          <a className="btn text-slate-50 bg-teal-800 text-lg hover:bg-teal-900 border-none font-thin">
-            Sign up</a>
+        <div className="navbar-end w-0 md:w-24 mx-4 mr-2 sm:mr-8">
+          <a className="btn text-slate-50 bg-teal-800 text-sm sm:text-lg hover:bg-teal-900 border-none font-thin w-24 sm:w-auto">
+            Sign up
+          </a>
         </div>
       </div>
     </div>

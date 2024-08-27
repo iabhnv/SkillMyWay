@@ -1,25 +1,32 @@
-import React from 'react'
+import React from "react";
 
 function Banner() {
   return (
-    <div>
-        <div className="hero bg-slate-50 min-h-screen">
-  <div className="hero-content flex-col lg:flex-row-reverse">
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-      className="max-w-sm rounded-lg shadow-2xl" />
-    <div>
-      <h1 className="text-5xl font-medium">Box Office News!</h1>
-      <p className="py-6">
-        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-        quasi. In deleniti eaque aut repudiandae et a id nisi.
-      </p>
-      <button className="btn btn-primary">Get Started</button>
+    <div className="md:mt-2">
+      <div className="relative flex flex-col lg:flex-row items-center bg-slate-50 ml-0 md:ml-5">
+        <div className="w-full lg:w-1/3 p-8 text-slate-900">
+          <h1 className="mb-5 text-3xl md:text-5xl font-bold">
+            Navigate Your Learning with <span className="text-teal-900">Precision!!!</span>
+          </h1>
+          <p className="text-sm md:text-lg">
+            Our roadmap empowers you to develop skills effectively and
+            efficiently, aligning your efforts with your goals. 
+          </p>
+          <div className="flex justify-between mt-3 md:mt-4">
+          <button className="text-slate-50 w-20 md:w-28 btn bg-teal-800 text-sm md:text-lg font-thin md:mt-6 hover:bg-teal-900">About</button>
+          <button className="text-teal-800 btn w-20 md:w-28 bg-slate-50 text-sm md:text-lg md:mt-6 hover:bg-teal-800 outline outline-teal-800 hover:text-slate-50 hover:outline-none hover:font-thin">Explore</button>
+            </div>          
+        </div>
+        <div className="w-full lg:w-2/3 h-[240px] lg:h-[640px]">
+          <img
+            src="/file.png"
+            className="w-full h-full object-cover scale-95"
+            alt="Hero"
+          />
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-    </div>
-  )
+  );
 }
 
-export default Banner
+export default Banner;

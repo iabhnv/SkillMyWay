@@ -1,6 +1,6 @@
 import React from 'react'
 
-function PathCard() {
+function AchieversCard() {
   return (
     <div className="card card-compact bg-slate-50 w-56 shadow-xl">
   <figure>
@@ -9,14 +9,15 @@ function PathCard() {
       alt="Shoes" />
   </figure>
   <div className="card-body">
-    <p className="card-title text-sm">Front-end Course</p>
+    <p className="card-title text-sm">How I became Developer</p>
+    {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
     <div className="card-actions justify-end">
-        <p className='text-slate-500 font-light text-xs'>7 weeks</p>
-      <button className="text-teal-800 text-xs font-semibold  hover:text-teal-600">Enroll</button>
+        <p className='text-slate-500 font-light text-xs'>John Doe</p>
+      <button className="text-teal-800 text-xs font-semibold  hover:text-teal-600">Read</button>
     </div>
   </div>
 </div>
   )
 }
 
-export default PathCard
+export default AchieversCard

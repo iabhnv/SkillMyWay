@@ -4,6 +4,7 @@ import Footer from './components/footer/Footer'
 import Banner from './components/banner/Banner'
 import PathCard from './components/card/PathCard'
 import AchieversCard from './components/card/AchieversCard'
+import Testimonial from './components/card/Testimonial'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <div className='bg-slate-50'>
       <Navbar/>
       <Banner/>
+      <Testimonial/>
       <PathCard/>
       <AchieversCard/>
       <Footer/>

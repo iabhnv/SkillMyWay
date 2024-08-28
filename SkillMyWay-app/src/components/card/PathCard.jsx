@@ -13,7 +13,7 @@ function PathCard() {
     {/* <p>If a dog chews shoes whose shoes does he choose?</p> */}
     <div className="card-actions justify-end">
         <p className='text-slate-500 font-light text-xs'>7 weeks</p>
-      <button className="text-teal-800 text-xs font-semibold  hover:text-teal-600">Buy Now</button>
+      <button className="text-teal-800 text-xs font-semibold  hover:text-teal-600">Enroll</button>
     </div>
   </div>
 </div>
